@@ -4,20 +4,21 @@ body{
 
 
 #headerImg{
-    width: 35vw;
+    width: 39vw;
     display: block;
     margin: auto;
 }
 
 #main{
     display: flex;
+    line-height: 1.25rem;
 }
 
 nav{
     width: 25vw;
     padding-left: 5vw;
     position: relative;
-    top: -16vw;
+    top: -20vw;
 }
 
 #about{
@@ -25,6 +26,11 @@ nav{
     padding-right: 5vw;
     padding-left: 4vw;
     background-color: rgb(240, 240, 240)
+}
+#choose{
+    font-size: 2.5vw;
+    color: white;
+    text-decoration: underline;
 }
 
 #belts li{
@@ -34,10 +40,12 @@ nav{
     border-radius: 10%;
     width: 30%;
     text-align: center;
+    margin: 1vw;
 }
 
 #belts a{
     color: black;
+    text-decoration: none;
 }
 #rules{ 
     background-color: rgb(240, 240, 240)
@@ -45,4 +53,8 @@ nav{
 
 #white{
     background-color: white;
+}
+
+#yellow{
+    background-color: yellow;
 }
