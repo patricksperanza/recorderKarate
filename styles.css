@@ -1,0 +1,48 @@
+body{
+    background-image:url("images/dojo.jpg")
+}
+
+
+#headerImg{
+    width: 35vw;
+    display: block;
+    margin: auto;
+}
+
+#main{
+    display: flex;
+}
+
+nav{
+    width: 25vw;
+    padding-left: 5vw;
+    position: relative;
+    top: -16vw;
+}
+
+#about{
+    width: 30vw;
+    padding-right: 5vw;
+    padding-left: 4vw;
+    background-color: rgb(240, 240, 240)
+}
+
+#belts li{
+    list-style: none;
+    font-size: 2vw;
+    padding: 1vw;
+    border-radius: 10%;
+    width: 30%;
+    text-align: center;
+}
+
+#belts a{
+    color: black;
+}
+#rules{ 
+    background-color: rgb(240, 240, 240)
+}
+
+#white{
+    background-color: white;
+}
