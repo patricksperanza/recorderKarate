@@ -3,15 +3,27 @@
     }
 
     #background{
-        background-color: rgb(240, 240, 240);
         margin: 2vw 6vw;
     }
 
-    #whiteBelt{
+    .white{
+        background-color: rgb(240, 240, 240);
+    }
+
+    .yellow{
+        background-color: rgba(169, 169, 3, 0.568);
+    }
+
+    .orange{
+        background-color: rgb(216, 172, 90);
+    }
+
+    #music{
         width: 65vw;
         display: block;
         margin: auto;
         padding-top: 3vw;
+        padding-bottom: 3vw;
     }
 
     nav{
@@ -19,7 +31,7 @@
         padding-left: 5vw;
         position: relative;
         top: -47vw;
-        left: -7vw;
+        left: -6vw;
         float: left;
     }
 
@@ -29,10 +41,11 @@
         font-size: 3vw;
         position: relative;
         top: -2vw;
-        left: 4vw;
+        left: 3.1vw;
         border: 1px solid black;
         padding: 0.5vw;
         border-radius: 10%;
+        background-color: rgb(240,240, 240);
     }
 
     #home:hover{
@@ -42,12 +55,14 @@
     #belts li{
         list-style: none;
         font-size: 2vw;
-        padding: 1vw;
+        padding: 0.7vw;
         border-radius: 10%;
-        width: 30%;
+        width: 5vw;
         text-align: center;
-        margin: 1vw;
+        margin: 1vw 0;
         border: 1px solid black;
+        position: relative;
+        left: 1vw;
     }
     
     #belts a{
