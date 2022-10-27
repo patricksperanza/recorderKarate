@@ -1,28 +1,25 @@
+/* Dojo Image */
 body{
     background-image:url("/images/dojo.jpg")
 }
 
+/* Background */
 #background{
     background-color: white;
     margin: 4vw 8vw;
 }
 
+/* Recorder Karate Image */
 #headerImg{
     width: 39vw;
     display: block;
     margin: auto;
 }
 
+/* Main */
 #main{
     display: flex;
     line-height: 1.25rem;
-}
-
-nav{
-    width: 25vw;
-    padding-left: 5vw;
-    position: relative;
-    top: -24vw;
 }
 
 #about{
@@ -35,8 +32,16 @@ nav{
     padding-right: 2vw;
 }
 
+/* Nav */
+nav{
+    width: 25vw;
+    padding-left: 5vw;
+    position: relative;
+    top: -24vw;
+}
+
 #choose{
-    font-size: 2.5vw;
+    font-size: 2vw;
     text-decoration: underline;
 }
 
@@ -45,7 +50,7 @@ nav{
     font-size: 2vw;
     padding: 1vw;
     border-radius: 10%;
-    width: 30%;
+    width: 35%;
     text-align: center;
     margin: 1vw;
     border: 1px solid black;
@@ -60,6 +65,7 @@ nav{
     background-color: lightgray;
 }
 
+/* Belts - colors */
 #white li{
     background-color: white;
 }
