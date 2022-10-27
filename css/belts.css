@@ -21,6 +21,10 @@
         background-color: rgba(216, 172, 90, 0.8);
     }
 
+    .green{
+        background-color: rgba(121, 191, 121, 0.8);
+    }
+
     /* Music Image */
     #music{
         width: 65vw;
