@@ -1,0 +1,104 @@
+    body{
+        background-image:url("/images/dojo.jpg");
+    }
+
+    #background{
+        background-color: rgb(240, 240, 240);
+        margin: 2vw 6vw;
+    }
+
+    #whiteBelt{
+        width: 65vw;
+        display: block;
+        margin: auto;
+        padding-top: 3vw;
+    }
+
+    nav{
+        width: 25vw;
+        padding-left: 5vw;
+        position: relative;
+        top: -47vw;
+        left: -7vw;
+        float: left;
+    }
+
+    #home{
+        text-decoration: none;
+        color: black;
+        font-size: 3vw;
+        position: relative;
+        top: -2vw;
+        left: 4vw;
+        border: 1px solid black;
+        padding: 0.5vw;
+        border-radius: 10%;
+    }
+
+    #home:hover{
+        background-color: lightgrey;
+    }
+
+    #belts li{
+        list-style: none;
+        font-size: 2vw;
+        padding: 1vw;
+        border-radius: 10%;
+        width: 30%;
+        text-align: center;
+        margin: 1vw;
+        border: 1px solid black;
+    }
+    
+    #belts a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    #belts li:hover{
+        background-color: lightgray;
+    }
+    
+    #white li{
+        background-color: white;
+    }
+    
+    #yellow li{
+        background-color: yellow; 
+    }
+    
+    #orange li{
+        background-color: orange; 
+        color: white;
+    }
+    
+    #green li{
+        background-color: green; 
+        color: white;
+    }
+    
+    #purple li{
+        background-color: purple; 
+        color: white;
+    }
+    
+    #blue li{
+        background-color: blue; 
+        color: white;
+    }
+    
+    #red li{
+        background-color: red;
+        color: white; 
+    }
+    
+    #brown li{
+        background-color: brown;
+        color: white;
+    }
+    
+    #black li{
+        background-color: black;
+        color: white;
+    }
+    

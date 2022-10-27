@@ -1,10 +1,10 @@
 body{
-    background-image:url("images/dojo.jpg")
+    background-image:url("/images/dojo.jpg")
 }
 
 #background{
-    background-color: rgb(240, 240, 240);
-    margin: 8vw;
+    background-color: white;
+    margin: 4vw 8vw;
 }
 
 #headerImg{
@@ -30,6 +30,11 @@ nav{
     padding-right: 5vw;
     padding-left: 4vw;
 }
+
+#rules{
+    padding-right: 2vw;
+}
+
 #choose{
     font-size: 2.5vw;
     text-decoration: underline;
@@ -51,42 +56,50 @@ nav{
     text-decoration: none;
 }
 
-#white{
+#belts li:hover{
+    background-color: lightgray;
+}
+
+#white li{
     background-color: white;
 }
 
-#yellow{
-    background-color: yellow;
+#yellow li{
+    background-color: yellow; 
 }
 
-#orange{
+#orange li{
     background-color: orange; 
-}
-
-#green{
-    background-color: green; 
-}
-
-#purple{
-    background-color: purple; 
-}
-
-#blue{
-    background-color: blue; 
-}
-
-#red{
-    background-color: red; 
-}
-
-#brown{
-    background-color: brown;
-}
-
-#black{
-    background-color: black;
-}
-
-#black a{
     color: white;
 }
+
+#green li{
+    background-color: green; 
+    color: white;
+}
+
+#purple li{
+    background-color: purple; 
+    color: white;
+}
+
+#blue li{
+    background-color: blue; 
+    color: white;
+}
+
+#red li{
+    background-color: red;
+    color: white; 
+}
+
+#brown li{
+    background-color: brown;
+    color: white;
+}
+
+#black li{
+    background-color: black;
+    color: white;
+}
+
