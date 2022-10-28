@@ -25,6 +25,26 @@
         background-color: rgba(121, 191, 121, 0.8);
     }
 
+    .purple{
+        background-color: rgba(240, 107, 240, 0.8);
+    }
+
+    .blue{
+        background-color: rgba(87, 87, 252, 0.8);
+    }
+
+    .red{
+        background-color: rgba(246, 100, 100, 0.8);
+    }
+
+    .brown{
+        background-color: rgba(165, 104, 42, 0.727);
+    }
+
+    .black{
+        background-color: rgba(15, 15, 15, 0.68);
+    }
+
     /* Music Image */
     #music{
         width: 65vw;
