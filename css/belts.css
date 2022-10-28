@@ -145,3 +145,23 @@
         color: white;
     }
     
+    /* Audio */
+    .play{
+        font-size: 2vw;
+        text-decoration: underline;
+        color:blue;
+        border: 1px solid black;
+        border-radius: 10%;
+        text-align: center;
+        width: 10vw;
+        cursor: pointer;
+        margin: auto;
+        position: relative;
+        top: -55.5vw;
+        background-color: rgb(186, 186, 186)
+    }
+
+    .play:hover{
+        background-color: white;
+    }
+
