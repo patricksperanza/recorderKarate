@@ -5,7 +5,7 @@ body {
 
 /* Background */
 #background {
-  margin: 2vw 6vw;
+  margin: 0 6vw;
 }
 
 /* Background colors for each page */
@@ -60,7 +60,7 @@ nav {
   position: relative;
   top: -51vw;
   left: -6.5vw;
-  float: left;
+  border: 3px solid blue;
 }
 
 #belts {

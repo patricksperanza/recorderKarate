@@ -1,111 +1,114 @@
 /* Dojo Image */
-body{
-    background-image:url("/images/dojo.jpg")
+body {
+  background-image: url("/images/dojo.jpg");
 }
 
 /* Background */
-#background{
-    background-color: white;
-    margin: 4vw 8vw;
+#background {
+  background-color: white;
+  margin: 4vw 8vw;
 }
 
 /* Recorder Karate Image */
-#headerImg{
-    width: 39vw;
-    display: block;
-    margin: auto;
+#headerImg {
+  width: 39vw;
+  display: block;
+  margin: auto;
 }
 
 /* Main */
-#main{
-    display: flex;
-    line-height: 1.25rem;
+#main {
+  display: flex;
+  line-height: 1.25rem;
 }
 
-#about{
-    width: 30vw;
-    padding-right: 5vw;
-    padding-left: 4vw;
+#about {
+  width: 30vw;
+  padding-right: 5vw;
+  padding-left: 4vw;
 }
 
-#rules{
-    padding-right: 2vw;
+#rules {
+  padding-right: 2vw;
 }
 
 /* Nav */
-nav{
-    width: 25vw;
-    padding-left: 5vw;
-    position: relative;
-    top: -24vw;
+nav {
+  width: 25vw;
+  position: relative;
+  top: -22vw;
+  text-align: center;
 }
 
-#choose{
-    font-size: 2vw;
-    text-decoration: underline;
+#belts {
+  padding: 0;
 }
 
-#belts li{
-    list-style: none;
-    font-size: 2vw;
-    padding: 1vw;
-    border-radius: 10%;
-    width: 35%;
-    text-align: center;
-    margin: 1vw;
-    border: 1px solid black;
+#choose {
+  font-size: 2vw;
+  text-decoration: underline;
 }
 
-#belts a{
-    color: black;
-    text-decoration: none;
+#belts li {
+  text-align: center;
+  list-style: none;
+  font-size: 1.2vw;
+  padding: 0.7vw;
+  border-radius: 10%;
+  width: 6vw;
+  border: 1px solid black;
+  margin: 1vw auto;
 }
 
-#belts li:hover{
-    background-color: lightgray;
+#belts a {
+  color: black;
+  text-decoration: none;
+}
+
+#belts li:hover {
+  background-color: lightgray;
 }
 
 /* Belts - colors */
-#white li{
-    background-color: white;
+#white li {
+  background-color: white;
 }
 
-#yellow li{
-    background-color: yellow; 
+#yellow li {
+  background-color: yellow;
 }
 
-#orange li{
-    background-color: orange; 
-    color: white;
+#orange li {
+  background-color: orange;
+  color: white;
 }
 
-#green li{
-    background-color: green; 
-    color: white;
+#green li {
+  background-color: green;
+  color: white;
 }
 
-#purple li{
-    background-color: purple; 
-    color: white;
+#purple li {
+  background-color: purple;
+  color: white;
 }
 
-#blue li{
-    background-color: blue; 
-    color: white;
+#blue li {
+  background-color: blue;
+  color: white;
 }
 
-#red li{
-    background-color: red;
-    color: white; 
+#red li {
+  background-color: red;
+  color: white;
 }
 
-#brown li{
-    background-color: brown;
-    color: white;
+#brown li {
+  background-color: brown;
+  color: white;
 }
 
-#black li{
-    background-color: black;
-    color: white;
+#black li {
+  background-color: black;
+  color: white;
 }
-
