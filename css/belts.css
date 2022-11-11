@@ -50,8 +50,8 @@ body {
   width: 65vw;
   display: block;
   margin: auto;
-  padding-top: 3vw;
-  padding-bottom: 3vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
 }
 
 /* Nav */
@@ -88,18 +88,22 @@ nav {
   background-color: lightgray;
 }
 
-#home {
+#home li {
   text-decoration: none;
   color: black;
-  font-size: 2.4vw;
+  font-size: 1vw;
+  line-height: 2.4vw;
   font-weight: bold;
   border: 2px solid black;
   border-radius: 10%;
-  background-color: rgb(240, 240, 240);
+  background-color: white;
+  margin-bottom: 3vw;
 }
 
-#belts #home li:hover {
-  background-color: white;
+#homeIcon {
+  width: 1.8vw;
+  position: relative;
+  top: 0.4vw;
 }
 
 #white li {
