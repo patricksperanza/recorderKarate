@@ -5,7 +5,8 @@ body {
 
 /* Background */
 #background {
-  margin: 0 6vw;
+  width: 88vw;
+  margin: 0 auto;
 }
 
 /* Background colors for each page */
