@@ -1,167 +1,166 @@
-   /* Dojo Image */
-   body{
-        background-image:url("/images/dojo.jpg");
-    }
+/* Dojo Image */
+body {
+  background-image: url("/images/dojo.jpg");
+}
 
-    /* Background */
-    #background{
-        margin: 2vw 6vw;
-    }
+/* Background */
+#background {
+  margin: 2vw 6vw;
+}
 
-    /* Background colors for each page */
-    .white{
-        background-color: rgba(240, 240, 240, 0.8);
-    }
+/* Background colors for each page */
+.white {
+  background-color: rgba(240, 240, 240, 0.8);
+}
 
-    .yellow{
-        background-color: rgba(169, 169, 3, 0.8);
-    }
+.yellow {
+  background-color: rgba(169, 169, 3, 0.8);
+}
 
-    .orange{
-        background-color: rgba(216, 172, 90, 0.8);
-    }
+.orange {
+  background-color: rgba(216, 172, 90, 0.8);
+}
 
-    .green{
-        background-color: rgba(121, 191, 121, 0.8);
-    }
+.green {
+  background-color: rgba(121, 191, 121, 0.8);
+}
 
-    .purple{
-        background-color: rgba(240, 107, 240, 0.8);
-    }
+.purple {
+  background-color: rgba(240, 107, 240, 0.8);
+}
 
-    .blue{
-        background-color: rgba(87, 87, 252, 0.8);
-    }
+.blue {
+  background-color: rgba(87, 87, 252, 0.8);
+}
 
-    .red{
-        background-color: rgba(246, 100, 100, 0.8);
-    }
+.red {
+  background-color: rgba(246, 100, 100, 0.8);
+}
 
-    .brown{
-        background-color: rgba(165, 104, 42, 0.727);
-    }
+.brown {
+  background-color: rgba(165, 104, 42, 0.727);
+}
 
-    .black{
-        background-color: rgba(15, 15, 15, 0.68);
-    }
+.black {
+  background-color: rgba(15, 15, 15, 0.68);
+}
 
-    /* Music Image */
-    #music{
-        width: 65vw;
-        display: block;
-        margin: auto;
-        padding-top: 3vw;
-        padding-bottom: 3vw;
-    }
+/* Music Image */
+#music {
+  width: 65vw;
+  display: block;
+  margin: auto;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+}
 
-    /* Nav */
-    nav{
-        width: 25vw;
-        padding-left: 5vw;
-        position: relative;
-        top: -47vw;
-        left: -6.5vw;
-        float: left;
-    }
+/* Nav */
+nav {
+  width: 25vw;
+  position: relative;
+  top: -51vw;
+  left: -6.5vw;
+  float: left;
+}
 
-    #home{
-        text-decoration: none;
-        color: black;
-        font-size: 2.2vw;
-        position: relative;
-        top: -2vw;
-        left: 3.1vw;
-        border: 1px solid black;
-        padding: 0.3vw;
-        border-radius: 10%;
-        background-color: rgb(240,240, 240);
-    }
+#belts {
+  padding: 0;
+  margin: 0;
+}
 
-    #home:hover{
-        background-color: lightgrey;
-    }
+#belts li {
+  text-align: center;
+  list-style: none;
+  font-size: 1.2vw;
+  padding: 0.7vw;
+  border-radius: 10%;
+  width: 6vw;
+  margin: 1vw auto;
+  border: 1px solid black;
+}
 
-    #belts li{
-        list-style: none;
-        font-size: 1.5vw;
-        padding: 0.7vw;
-        border-radius: 10%;
-        width: 27%;
-        text-align: center;
-        margin: 1vw 0;
-        border: 1px solid black;
-    }
+#belts a {
+  color: black;
+  text-decoration: none;
+}
 
+#belts li:hover {
+  background-color: lightgray;
+}
 
-    #belts a{
-        color: black;
-        text-decoration: none;
-    }
-    
-    #belts li:hover{
-        background-color: lightgray;
-    }
-    
-    #white li{
-        background-color: white;
-    }
-    
-    #yellow li{
-        background-color: yellow; 
-    }
-    
-    #orange li{
-        background-color: orange; 
-        color: white;
-    }
-    
-    #green li{
-        background-color: green; 
-        color: white;
-    }
-    
-    #purple li{
-        background-color: purple; 
-        color: white;
-    }
-    
-    #blue li{
-        background-color: blue; 
-        color: white;
-    }
-    
-    #red li{
-        background-color: red;
-        color: white; 
-    }
-    
-    #brown li{
-        background-color: brown;
-        color: white;
-    }
-    
-    #black li{
-        background-color: black;
-        color: white;
-    }
-    
-    /* Audio */
-    .play{
-        font-size: 2vw;
-        text-decoration: underline;
-        color:blue;
-        border: 1px solid black;
-        border-radius: 10%;
-        text-align: center;
-        width: 10vw;
-        cursor: pointer;
-        margin: auto;
-        position: relative;
-        top: -55.5vw;
-        background-color: rgb(186, 186, 186)
-    }
+#home {
+  text-decoration: none;
+  color: black;
+  font-size: 2.4vw;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 10%;
+  background-color: rgb(240, 240, 240);
+}
 
-    .play:hover{
-        background-color: white;
-    }
+#belts #home li:hover {
+  background-color: white;
+}
 
+#white li {
+  background-color: white;
+}
+
+#yellow li {
+  background-color: yellow;
+}
+
+#orange li {
+  background-color: orange;
+  color: white;
+}
+
+#green li {
+  background-color: green;
+  color: white;
+}
+
+#purple li {
+  background-color: purple;
+  color: white;
+}
+
+#blue li {
+  background-color: blue;
+  color: white;
+}
+
+#red li {
+  background-color: red;
+  color: white;
+}
+
+#brown li {
+  background-color: brown;
+  color: white;
+}
+
+#black li {
+  background-color: black;
+  color: white;
+}
+
+/* Audio */
+.play {
+  font-size: 2vw;
+  text-decoration: underline;
+  color: blue;
+  border: 1px solid black;
+  border-radius: 10%;
+  text-align: center;
+  width: 10vw;
+  cursor: pointer;
+  position: relative;
+  top: -55.5vw;
+  background-color: rgb(186, 186, 186);
+  margin: auto;
+}
+
+.play:hover {
+  background-color: white;
+}
