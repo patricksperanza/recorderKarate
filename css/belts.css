@@ -61,6 +61,7 @@ nav {
   position: relative;
   top: -51vw;
   left: -6.5vw;
+  float: left;
 }
 
 #belts {
