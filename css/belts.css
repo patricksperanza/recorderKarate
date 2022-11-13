@@ -48,19 +48,16 @@ body {
 
 /* Music Image */
 #music {
-  width: 64vw;
+  width: 70%;
   display: block;
-  margin: auto;
   padding-top: 2vw;
   padding-bottom: 2vw;
 }
 
 /* Nav */
 nav {
-  width: 25vw;
-  position: relative;
-  top: -51vw;
-  left: -6.5vw;
+  width: 16%;
+  margin-top: 5vw;
   float: left;
 }
 
