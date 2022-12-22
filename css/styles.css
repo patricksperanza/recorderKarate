@@ -19,25 +19,29 @@ body {
 /* Main */
 #main {
   display: flex;
-  line-height: 1.25rem;
+  line-height: 1.3rem;
 }
 
 #about {
-  width: 30vw;
   padding-right: 5vw;
   padding-left: 4vw;
+  margin-right: auto;
+  font-size: 1.1rem;
 }
 
 #rules {
   padding-right: 2vw;
+  width: 60vw;
 }
 
 /* Nav */
 nav {
   width: 25vw;
   position: relative;
-  top: -22vw;
+  top: -17vw;
   text-align: center;
+  margin-left: 4vw;
+  margin-right: 2vw;
 }
 
 #belts {
