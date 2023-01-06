@@ -51,7 +51,7 @@ body {
   width: 70%;
   display: block;
   padding-top: 2vw;
-  padding-bottom: 2vw;
+  padding-bottom: 1vw;
 }
 
 /* Nav */
@@ -165,4 +165,10 @@ nav {
 
 .play:hover {
   background-color: white;
+}
+
+audio {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 1vw;
 }
